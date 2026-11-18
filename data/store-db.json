@@ -1,0 +1,230 @@
+{
+  "user": {
+    "_id": "usr-cm-001",
+    "name": "Aminatou Ndiaye",
+    "email": "aminatou.ndiaye@bonapriso.cm",
+    "phoneNumber": "+237 677482910",
+    "gender": "female",
+    "preferredCurrency": "XAF",
+    "preferredLanguage": "en",
+    "whatsappUpdates": true,
+    "newsletterOptIn": true,
+    "city": "Douala",
+    "createdAt": "2026-09-14T10:30:00.000Z"
+  },
+  "addresses": [
+    {
+      "_id": "addr-cm-1",
+      "label": "Home",
+      "fullName": "Aminatou Ndiaye",
+      "phone": "+237 677482910",
+      "email": "aminatou.ndiaye@bonapriso.cm",
+      "line1": "Villa 14, Rue des Palmiers",
+      "line2": "Bonapriso, près du Glacier Moderne",
+      "city": "Douala",
+      "state": "Littoral",
+      "pincode": "BP 4821",
+      "country": "Cameroon",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-cm-2",
+      "label": "Work",
+      "fullName": "Aminatou Ndiaye",
+      "phone": "+237 699124578",
+      "email": "aminatou.ndiaye@bonapriso.cm",
+      "line1": "Immeuble Horizon, Boulevard de l’URSS",
+      "line2": "Quartier Bastos",
+      "city": "Yaoundé",
+      "state": "Centre",
+      "pincode": "BP 1109",
+      "country": "Cameroon",
+      "isDefault": false
+    }
+  ],
+  "wishlist": [
+    {
+      "productId": "6ad21fbf6708fcee46b1ec58",
+      "sku": "TCY-SET-CR-TM1319-TR-GNO"
+    },
+    {
+      "productId": "6aca3e83f7ad3b6aac31f5ce",
+      "sku": "LAC-26-WH-TM1319-LO"
+    },
+    {
+      "productId": "6ad5ff85ec8372b6033ac62f",
+      "sku": "TCY-26-LB-TR-SNF"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ord-cm-1089",
+      "orderNumber": "PNL-CM-1089",
+      "createdAt": "2026-11-15T08:18:51.527Z",
+      "status": "shipped",
+      "displayStatus": "shipped",
+      "estimatedDelivery": "2–3 business days (Douala Courier)",
+      "paymentMethod": "MTN Mobile Money (MoMo)",
+      "baseCurrency": "USD",
+      "paymentCurrency": "XAF",
+      "exchangeRate": 600,
+      "subtotalMinorUnit": 27900,
+      "shippingMinorUnit": 0,
+      "taxTotalMinorUnit": 0,
+      "giftMinorUnit": 1200,
+      "gift": {
+        "name": "A Gift Box"
+      },
+      "totalMinorUnit": 29100,
+      "customerEmail": "aminatou.ndiaye@bonapriso.cm",
+      "shippingAddress": {
+        "_id": "addr-cm-1",
+        "label": "Home",
+        "fullName": "Aminatou Ndiaye",
+        "phone": "+237 677482910",
+        "email": "aminatou.ndiaye@bonapriso.cm",
+        "line1": "Villa 14, Rue des Palmiers",
+        "line2": "Bonapriso, près du Glacier Moderne",
+        "city": "Douala",
+        "state": "Littoral",
+        "pincode": "BP 4821",
+        "country": "Cameroon",
+        "isDefault": true
+      },
+      "items": [
+        {
+          "productId": "6ad5ff85ec8372b6033ac62f",
+          "slug": "tcy-light-blue-snowflake-runner",
+          "sku": "TCY-26-LB-TR-SNF",
+          "name": "The Christmas Yard, Light Blue Runner, Snoflakes Motif",
+          "variantLabel": "Light Blue Runner, Snowflakes Motif",
+          "image": "/uploads/img/1793780236993-5d54d861.jpg",
+          "priceMinorUnit": 9900,
+          "qty": 1,
+          "hsnCode": "63025200",
+          "tax": {
+            "rate": 0,
+            "amountMinorUnit": 0
+          }
+        },
+        {
+          "productId": "6accd4278257a0d40bdba3a0",
+          "slug": "sails-up-white-series-3-mat",
+          "sku": "SU-26-WH3-TM-1319-BR",
+          "name": "Sails Up, White, Series 3, Mat",
+          "variantLabel": "Blue & Red Ship",
+          "image": "/uploads/img/1791808522998-8c129478.jpg",
+          "priceMinorUnit": 4500,
+          "qty": 4,
+          "hsnCode": "63025300",
+          "tax": {
+            "rate": 0,
+            "amountMinorUnit": 0
+          }
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "placed",
+          "at": "2026-11-15T08:18:51.527Z",
+          "note": "Confirmed via MTN MoMo"
+        },
+        {
+          "status": "shipped",
+          "at": "2026-11-17T08:18:51.527Z",
+          "note": "Dispatched from Bonapriso Atelier"
+        }
+      ]
+    },
+    {
+      "_id": "ord-cm-1042",
+      "orderNumber": "PNL-CM-1042",
+      "createdAt": "2026-10-30T08:18:51.527Z",
+      "status": "delivered",
+      "displayStatus": "delivered",
+      "paymentMethod": "Orange Money Cameroon",
+      "baseCurrency": "USD",
+      "paymentCurrency": "XAF",
+      "exchangeRate": 600,
+      "subtotalMinorUnit": 95300,
+      "shippingMinorUnit": 0,
+      "taxTotalMinorUnit": 0,
+      "giftMinorUnit": 0,
+      "totalMinorUnit": 95300,
+      "customerEmail": "aminatou.ndiaye@bonapriso.cm",
+      "shippingAddress": {
+        "_id": "addr-cm-2",
+        "label": "Work",
+        "fullName": "Aminatou Ndiaye",
+        "phone": "+237 699124578",
+        "email": "aminatou.ndiaye@bonapriso.cm",
+        "line1": "Immeuble Horizon, Boulevard de l’URSS",
+        "line2": "Quartier Bastos",
+        "city": "Yaoundé",
+        "state": "Centre",
+        "pincode": "BP 1109",
+        "country": "Cameroon",
+        "isDefault": false
+      },
+      "items": [
+        {
+          "productId": "6ad21fbf6708fcee46b1ec58",
+          "slug": "tcy-cream-full-set-gnomes-runner",
+          "sku": "TCY-SET-CR-TM1319-TR-GNO",
+          "name": "Full Set, Cream - 1 Table Runner, 8 Table Mats & 8 Dinner Napkins",
+          "variantLabel": "Full Cream Set + Gnomes Runner",
+          "image": "/uploads/img/1793778397764-be6b83d9.jpg",
+          "priceMinorUnit": 95300,
+          "qty": 1,
+          "hsnCode": "63025200",
+          "tax": {
+            "rate": 0,
+            "amountMinorUnit": 0
+          }
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "placed",
+          "at": "2026-10-30T08:18:51.527Z"
+        },
+        {
+          "status": "shipped",
+          "at": "2026-11-01T08:18:51.527Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-11-04T08:18:51.527Z",
+          "note": "Signed at Bastos Reception"
+        }
+      ]
+    }
+  ],
+  "cart": {
+    "items": [],
+    "giftId": null
+  },
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productSlug": "tcy-cream-full-set-gnomes-runner",
+      "author": "Aminatou Ndiaye",
+      "city": "Douala, Cameroon",
+      "rating": 5,
+      "title": "Showpiece for our Christmas Eve dinner in Bonapriso",
+      "comment": "The hand-embroidered gnomes and crisp cream linen elevated our entire dining room. Guests kept admiring every mat.",
+      "createdAt": "2026-11-06T08:18:51.527Z"
+    },
+    {
+      "id": "rev-2",
+      "productSlug": "life-at-court-white-mat-lotus",
+      "author": "Jean-Paul Mbarga",
+      "city": "Yaoundé, Cameroon",
+      "rating": 5,
+      "title": "Museum-grade embroidery & fast Yaoundé delivery",
+      "comment": "Arrived beautifully boxed in Bastos within 48 hours. The lotus embroidery has remarkable depth.",
+      "createdAt": "2026-11-10T08:18:51.527Z"
+    }
+  ],
+  "contactMessages": []
+}
